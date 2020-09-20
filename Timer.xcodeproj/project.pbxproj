@@ -8,19 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5C03EE542516EEE000A32A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03EE532516EEE000A32A7C /* AppDelegate.swift */; };
-		5C03EE562516EEE000A32A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03EE552516EEE000A32A7C /* ViewController.swift */; };
 		5C03EE582516EEE100A32A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C03EE572516EEE100A32A7C /* Assets.xcassets */; };
 		5C03EE5B2516EEE100A32A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C03EE592516EEE100A32A7C /* Main.storyboard */; };
+		5C03EE652516F56500A32A7C /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03EE642516F56500A32A7C /* SampleViewController.swift */; };
+		5C03EE692516FB2500A32A7C /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03EE682516FB2500A32A7C /* Quotes.swift */; };
+		5C03EE6D25175F8E00A32A7C /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03EE6C25175F8E00A32A7C /* EventMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C03EE502516EEE000A32A7C /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C03EE532516EEE000A32A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C03EE552516EEE000A32A7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C03EE572516EEE100A32A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C03EE5A2516EEE100A32A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C03EE5C2516EEE100A32A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C03EE5D2516EEE100A32A7C /* Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Timer.entitlements; sourceTree = "<group>"; };
+		5C03EE642516F56500A32A7C /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		5C03EE682516FB2500A32A7C /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		5C03EE6C25175F8E00A32A7C /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		5C03EE712517829D00A32A7C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +42,9 @@
 		5C03EE472516EEE000A32A7C = {
 			isa = PBXGroup;
 			children = (
+				5C03EE712517829D00A32A7C /* README.md */,
+				5C03EE6C25175F8E00A32A7C /* EventMonitor.swift */,
+				5C03EE682516FB2500A32A7C /* Quotes.swift */,
 				5C03EE522516EEE000A32A7C /* Timer */,
 				5C03EE512516EEE000A32A7C /* Products */,
 			);
@@ -54,9 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				5C03EE532516EEE000A32A7C /* AppDelegate.swift */,
-				5C03EE552516EEE000A32A7C /* ViewController.swift */,
 				5C03EE572516EEE100A32A7C /* Assets.xcassets */,
 				5C03EE592516EEE100A32A7C /* Main.storyboard */,
+				5C03EE642516F56500A32A7C /* SampleViewController.swift */,
 				5C03EE5C2516EEE100A32A7C /* Info.plist */,
 				5C03EE5D2516EEE100A32A7C /* Timer.entitlements */,
 			);
@@ -132,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C03EE562516EEE000A32A7C /* ViewController.swift in Sources */,
+				5C03EE652516F56500A32A7C /* SampleViewController.swift in Sources */,
 				5C03EE542516EEE000A32A7C /* AppDelegate.swift in Sources */,
+				5C03EE692516FB2500A32A7C /* Quotes.swift in Sources */,
+				5C03EE6D25175F8E00A32A7C /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
